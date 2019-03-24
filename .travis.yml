@@ -7,5 +7,4 @@ services:
 
 
 script:
-  # -- --coverage causes program to output then systematicly exit after run once
   - docker run blackflame007/docker-react npm run test -- --coverage
