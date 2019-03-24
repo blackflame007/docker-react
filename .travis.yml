@@ -8,3 +8,4 @@ services:
 
 script:
   - docker run blackflame007/docker-react npm run test -- --coverage
+  
